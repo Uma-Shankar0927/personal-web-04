@@ -36,6 +36,7 @@ header{
     font-size: 2em;
     cursor: pointer;
     padding-left: 20px;
+    padding-right: 20px;
     z-index:1000;
     background: #fff;
 }
