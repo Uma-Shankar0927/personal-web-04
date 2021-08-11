@@ -673,6 +673,7 @@ header{
         height: calc(100vh - 60px);
         bottom: 0;
         width: 100%;
+        z-index: -1;
     }
     #navbar ul{
         flex-direction: column;
