@@ -31,11 +31,12 @@ header{
 .logo{
     height: 60px;
     line-height: 60px;
-    color: #12334e;
+    color:#ff5733;
     font-weight: 700;
     font-size: 2em;
     cursor: pointer;
     padding-left: 20px;
+    z-index:1000;
 }
 #toggle{
     position: absolute;
@@ -74,7 +75,7 @@ header{
     transform: translate(0px) rotate(-45deg);
 }
 #toggle.active{
-    background: rgb(70, 67, 67);
+    z-index:1000;
 }
 #navbar{
     position: relative;
@@ -675,9 +676,7 @@ header{
         width: 100%;
         z-index: -1;
     }
-    header{
-       z-index: 1000;
-    }
+ 
     #navbar ul{
         flex-direction: column;
         justify-content: center;
