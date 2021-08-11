@@ -37,6 +37,7 @@ header{
     cursor: pointer;
     padding-left: 20px;
     z-index:1000;
+    background: #fff;
 }
 #toggle{
     position: absolute;
