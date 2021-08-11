@@ -76,6 +76,7 @@ header{
 }
 #toggle.active{
     z-index:1000;
+    background-color:none;
 }
 #navbar{
     position: relative;
