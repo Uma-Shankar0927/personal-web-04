@@ -675,6 +675,9 @@ header{
         width: 100%;
         z-index: -1;
     }
+    header{
+        z-index: 1000;
+    }
     #navbar ul{
         flex-direction: column;
         justify-content: center;
