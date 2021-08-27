@@ -37,7 +37,6 @@ header{
     cursor: pointer;
     padding-left: 12px;
     padding-right: 12px;
-    border: 2px solid #fff;
     border-radius: 30%;
     z-index:1000;
 }
