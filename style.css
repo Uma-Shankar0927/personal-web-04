@@ -250,7 +250,7 @@ header{
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: rgb(138, 138, 138);
+    background-color: rgb(177, 176, 176);
     text-align: center;
 }
 .about-me{
@@ -435,7 +435,7 @@ header{
 
 #team12{
     padding: 60px 40px;
-    background-color: #3e5958;
+    background-color: rgb(0, 0, 0);
     
 }
 .team-heading{
@@ -491,7 +491,7 @@ header{
 
 /* ----------------------------------contact------------------------------ */
 .banner1 {
-    background: /*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/ #05a6ac; 
+    background: /*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/ rgb(0, 0, 0); 
     width: 100%;
     min-height: 100vh;
     margin: auto;
