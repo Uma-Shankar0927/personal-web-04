@@ -664,7 +664,7 @@ header{
 @media(max-width:950px){
     #navbar{
         position: fixed;
-        bottom: -100%;
+        bottom: -200%;
         right: 0;
         width: 100%;
         transition: 0.3s;
