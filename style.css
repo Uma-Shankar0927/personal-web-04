@@ -651,7 +651,8 @@ header{
 #fo-img{
     height: 33px;
     width: 33px;
-    border-radius: 15px;
+    border-radius: 4px;
+    border: 1px solid #fff;
 }
 
 
