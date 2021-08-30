@@ -711,7 +711,10 @@ header{
         margin-top: 20px;
     }
     .about-content .right-about{
-        margin: 12px;
+        margin: 15px;
+    }
+    .ab_space{
+        padding-bottom: 25px;
     }
     /* ----------skill--------- */
     #skill{
