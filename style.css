@@ -75,7 +75,7 @@ header{
     transform: translate(0px) rotate(-45deg);
 }
 #toggle.active{
-    background: rgb(70, 67, 67);
+    background: #1d1d1d;
 }
 #navbar{
     position: relative;
