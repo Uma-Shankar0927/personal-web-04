@@ -81,7 +81,7 @@ header{
     position: relative;
     height: 60px;
     right: 60px;
-    background: rgb(41, 39, 39);
+    background: rgb(0,0,0);
     transition: 0.5s;
     width: 0px;
     overflow: hidden;
