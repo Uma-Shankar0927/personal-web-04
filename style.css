@@ -685,7 +685,7 @@ header{
     #navbar ul{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: left;
     }
     #navbar ul li a{
         font-size: 1.4rem;
