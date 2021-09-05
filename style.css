@@ -314,7 +314,7 @@ header{
 
 .about-content .right-about{
     display: flex;
-    background: #0462b9;
+    background: linear-gradient(#000000,#0462b9);
     align-items: center;
     justify-content: center;
     text-align: center;
