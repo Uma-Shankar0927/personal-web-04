@@ -493,6 +493,8 @@ header{
 .profile{
     flex-basis: 284px;
     padding: 20px 20px;
+    background:none;
+        margin-bottom: none;
 }
 .profile .profile-img{
     height: 265px;
