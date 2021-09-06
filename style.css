@@ -352,6 +352,43 @@ header{
     padding: 12px;
     margin: 20px;
 }
+/*--------------------------Top Jobs---------------------------------*/
+#topjbs{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(0, 0, 0); */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 163, 163);
+}
+#tpjbimg{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+#tpjbh1{
+    font-size: 2.23rem;
+    margin-top: 25px;
+    text-align: center;
+    color: #0462b9;
+}
+.tpjobs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin: 80px 20px;
+    margin-top: 30px;
+}
+.course-col{
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#0462b9,#fff);
+    box-shadow: black;
+}
 
 /* -----------------------------Skills---------------------------------- */
 #skill{
@@ -438,12 +475,12 @@ header{
 
 #team12{
     padding: 60px 40px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(211, 208, 208);
     
 }
 .team-heading{
     padding-top: 60px;
-    font-size: 1.9rem;
+    font-size: 2.23rem;
     text-align: center;
     color: #0462b9;
 }
@@ -456,6 +493,8 @@ header{
 .profile{
     flex-basis: 284px;
     padding: 20px 20px;
+    background: whitesmoke;
+    margin-bottom: 20px;
 }
 .profile .profile-img{
     height: 265px;
@@ -464,7 +503,7 @@ header{
     cursor: pointer;
     transition: all 0.5s ease;
     padding: 7px;
-    border: 3px solid whitesmoke;
+    border: 3px solid rgb(0, 0, 0);
     text-align: center;
 }
 .profile-img:hover{
