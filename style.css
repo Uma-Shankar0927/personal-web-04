@@ -514,19 +514,19 @@ header{
     text-align: center;
     padding-top: 14px;
     padding-bottom: 12px;
-    color: whitesmoke;
+    color: rgb(0,0,0);
 }
 .profile .team-w{
     font-size: 1.25rem;
     text-align: center;
     padding: 5px;
-    color: whitesmoke;
+    color: rgb(0,0,0);
 }
 .profile .team-para{
     font-size: 1rem;
     text-align: center;
     padding-bottom: 12px;
-    color: whitesmoke;
+    color: rgb(0,0,0);
 }
 
 
