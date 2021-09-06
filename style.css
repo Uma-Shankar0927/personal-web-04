@@ -738,14 +738,6 @@ header{
         height: 230px;
         width: 220px;
     }
-    .border-lf{
-        border-left: 2px solid #0462b9;
-        border-radius: 1px;
-    }
-    .border-rg{
-        border-right: 2px solid #0462b9;
-        border-radius: 1px;
-    }
 }
 @media(max-width:275px){
     .profile .profile-img{
