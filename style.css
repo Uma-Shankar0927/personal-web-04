@@ -323,13 +323,14 @@ header{
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-    padding: 12px;
+    padding: 20px;
     /* background: cornflowerblue; */
     border-radius: 10px;
     margin: 20px;
     text-align: left;
     /* box-shadow: -10px 0px 10px 1px #3E0E12; */
-    box-shadow: -10px 10px 10px -3px #0462b9;
+/*     box-shadow: -10px 10px 10px -3px #0462b9; */
+      border-left: 3px solid #0462b9;
 
 }
 .about-content .left-about h1{
