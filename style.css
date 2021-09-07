@@ -712,6 +712,64 @@ header{
     border: 2px solid #fff;
     margin: 6px;
 } */
+
+/*----------------------------faqs-----------------------*/
+#faq-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(211, 208, 208);
+}
+#faq-h1{
+    font-size: 2.23rem;
+    color: #0462b9;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.faq-contain{
+    max-width: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.faq-contain .content-bx{
+    position: relative;
+    margin: 10px 20px;
+}
+.faq-contain .content-bx .label{
+    position: relative;
+    padding: 10px;
+    background: #0462b9;
+    color: #fff;
+    cursor: pointer;
+}
+.faq-contain .content-bx .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+.faq-contain .content-bx.active .label::before{
+    content: '-';
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+.faq-contain .content-bx .content-fq{
+    position: relative;
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+.faq-contain .content-bx.active .content-fq{
+    height: 150px;
+    padding: 10px;
+}
 /* ---------------------------footer-------------------- */
 .footer-a{
     display: flex;
