@@ -29,3 +29,13 @@ let btncl = document.getElementById('btnjs');
         btncl.addEventListener('click', function run(){
         confirm("Do you want to download the source code pdf?");
         });
+
+
+
+const faqvar = document.getElementsByClassName('content-bx');
+
+for(i = 0; i<faqvar.length; i++){
+    faqvar[i].addEventListener('click',function(){
+        this.classList.toggle('active')
+    })
+}
