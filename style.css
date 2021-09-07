@@ -86,6 +86,9 @@ header{
     width: 0px;
     overflow: hidden;
 }
+.nav-space{
+    display: none;
+}
 #navbar.active{
     width: 660px;
 }
@@ -877,6 +880,10 @@ header{
         bottom: 0;
         width: 100%;
         z-index: -1;
+    }
+    .nav-space{
+        display: block;
+        padding: 10px;
     }
     #navbar ul{
         flex-direction: column;
