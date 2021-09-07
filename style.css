@@ -804,7 +804,7 @@ header{
     justify-content: left;
     flex-direction: column;
     padding-left: 90px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 #abv{
@@ -834,7 +834,7 @@ header{
 #footer-ic{
     padding: 9px;
     border: 2px solid #fff;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 #footer-ic #sc-fc{
     font-size: 20px;
