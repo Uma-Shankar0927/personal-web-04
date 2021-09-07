@@ -774,29 +774,79 @@ header{
 .footer-a{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     padding: 30px 2px;
-    background-color: rgb(22, 21, 21);
+    background-color: rgb(51, 49, 49);
 }
 .btn-f{
     display: flex;
-    background-color: #948a87;
+    background-color: #fff;
     border-radius: 15px;
     padding: 9px;
-    margin: 5px;
+    margin: 5px auto;
     font-size: 20px;
     color: rgb(0, 0, 0);
     justify-content: center;
 }
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.quicklinks{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#abv{
+    color: #fff;
+    display: block;
+    line-height: 2;
+}
+#socialh2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.social-flw{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+}
+.social-flw .Face-fc{
+    background: #3B5998;
+}
+.social-flw .Pint-pn{
+    background: #BB3330;
+}
+.social-flw .Twit-tw{
+    background: #1DA1F2;
+}
+#footer-ic{
+    padding: 9px;
+    border: 2px solid #fff;
+    margin-bottom: 6px;
+}
+#footer-ic #sc-fc{
+    font-size: 20px;
+}
+.f-para{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 #para-ft{
     font-size: 1rem;
     color: whitesmoke;
-    padding: 8px;
+    padding: 8px 30px;
     text-align: center;
 }
 #Rg-nm{
-    color: blue;
+    color:#fff;
+    font-weight: bold;
 }
 #fo-img{
     height: 33px;
@@ -804,7 +854,6 @@ header{
     border-radius: 4px;
     border: 1px solid #fff;
 }
-
 
 
 
@@ -890,6 +939,12 @@ header{
     .profile .profile-img{
         height: 230px;
         width: 220px;
+    }
+    .quicklinks{
+        padding-left: 20px;
+    }
+    .social-flw{
+        padding-right: 20px;
     }
 }
 @media(max-width:550px){
