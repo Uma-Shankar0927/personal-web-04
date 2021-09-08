@@ -791,6 +791,12 @@ header{
     padding: 30px 2px;
     background-color: rgb(51, 49, 49);
 }
+.footer-logo-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 30px;
+}
 .btn-f{
     display: flex;
     background-color: #fff;
@@ -810,11 +816,10 @@ header{
     display: flex;
     justify-content: left;
     flex-direction: column;
-    padding-left: 90px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    margin: 30px;
 }
 #abv{
+   width: 120px;
     color: #fff;
     display: block;
     line-height: 2.5;
@@ -826,8 +831,8 @@ header{
 .social-flw{
     padding-top: 20px;
     display: flex;
-    flex-direction: column;
-    padding-right: 200px;
+    flex-direction: row;
+    margin: 20px 0;
 }
 .social-flw .Face-fc{
     background: #3B5998;
@@ -839,9 +844,11 @@ header{
     background: #1DA1F2;
 }
 #footer-ic{
-    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
     border: 2px solid #fff;
-    margin-bottom: 10px;
+    margin-right: 10px;
 }
 #footer-ic #sc-fc{
     font-size: 20px;
@@ -866,7 +873,6 @@ header{
     border-radius: 4px;
     border: 1px solid #fff;
 }
-
 
 
 
@@ -956,18 +962,23 @@ header{
         height: 230px;
         width: 220px;
     }
-    .quicklinks{
-        padding-left: 20px;
-    }
     .social-flw{
-        padding-right: 20px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
     }
 }
-@media(max-width:550px){
+@media(max-width:600px){
+    .footer-row{
+        flex-direction: column;
+    }
     .home-box{
         flex-direction: column;
         flex-wrap: nowrap;
     }
+}
+@media(max-width:550px){
     .home-img-pn{
         height: 250px;
         width: 250px;   
