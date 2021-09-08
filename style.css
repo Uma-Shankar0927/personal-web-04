@@ -796,6 +796,7 @@ header{
     flex-direction: column;
     justify-content: left;
     margin: 30px;
+    padding-right: 80px;
 }
 .btn-f{
     display: flex;
@@ -817,6 +818,7 @@ header{
     justify-content: left;
     flex-direction: column;
     margin: 30px;
+    margin-right: 200px;
 }
 #abv{
    width: 120px;
@@ -967,6 +969,12 @@ header{
         display: flex;
         flex-direction: row;
         margin: 10px 0;
+    }
+    .quicklinks{
+        margin-right:0px;
+    }
+    .footer-logo-p{
+        padding-right: 0px;
     }
 }
 @media(max-width:600px){
