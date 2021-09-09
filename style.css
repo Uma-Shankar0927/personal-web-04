@@ -272,8 +272,9 @@ header{
         opacity: 1;
     }
 }
-.home-icons img{
+.home-icons #ic-img{
     display: flex;
+    font-size: 1.2rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
