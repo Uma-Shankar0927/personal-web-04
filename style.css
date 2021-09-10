@@ -458,15 +458,28 @@ header{
 #skill{
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color:#1d1d1d;
     padding-left: 25px;
 }
 .skill_space{
-    padding-bottom: 90px;
+    padding-bottom: 25px;
+}
+#lastsp{
+    padding-bottom: 60px;
+}
+.skill-items-s{
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    padding: 30px;
+    background-color: #1d1d1d;
+    -moz-box-shadow: 0 0 8px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 8px rgb(0,0,0);
+    box-shadow: 0 0 8px rgb(0, 0, 0);
 }
 .skill-title h1{
     color: #0462b9;
-    font-size: 1.8rem;
+    font-size: 2.23rem;
     padding-left: 25px;
     padding-top: 85px;
     position: relative;
@@ -494,7 +507,8 @@ header{
 }
 .skill-item{
     padding-top: 38px;
-    padding-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #h5{
     color: #fff;
@@ -503,10 +517,10 @@ header{
     line-height: 40px;
 }
 .progress{
-    background: #e3e3e3;
-    height: 6px;
-    border-radius: 2px;
-    width: 90%;
+    background: #383737;
+    height: 15px;
+    border-radius: 10px;
+    width: 100%;
     position: relative;
 }
 .progress-in{
@@ -514,25 +528,23 @@ header{
     top: 0;
     left: 0;
     height: 100%;
-    border-radius: 1px;
+    border-radius: 10px;
     background: #0462b9;
-    filter: blur(2px);
 }
-.pro-point{
+/* .pro-point{
     position: absolute;
     top: 0;
     right: 0;
     height: 100%;
     width: 6px;
-    background: #00386d;
-}
+} */
 .skill-percent{
-    line-height: 40px;
+    /* line-height: 40px; */
     position: absolute;
     right: 0;
     color: #fff;
-    top: -40px;
-    font-weight: 400;
+    /* top: -40px; */
+    font-size: 14px;
 }
 
 /* ------------------------------Our Team--------------------------- */
@@ -949,6 +961,10 @@ header{
     /* ----------skill--------- */
     #skill{
         padding-left: 0px;
+    }
+    .skill-items-s{
+        margin: 30px;
+        padding: 0px;
     }
     /* --------------team------------- */
     #team12{
