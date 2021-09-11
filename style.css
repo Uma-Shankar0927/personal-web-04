@@ -710,6 +710,7 @@ header{
        resize: none;
        background: rgb(0, 0, 0);
        border-radius: 10px;
+       color: #fff;
    }
    .contactform .inputbox span{
        left: 0;
