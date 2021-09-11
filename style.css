@@ -609,7 +609,7 @@ header{
 
 /* ----------------------------------contact------------------------------ */
 .banner1 {
-    background: /*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/ rgb(0, 0, 0); 
+    background: /*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/ #1d1d1d; 
     width: 100%;
     min-height: 100vh;
     margin: auto;
