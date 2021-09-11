@@ -684,12 +684,15 @@ header{
    .contactform{
        width: 50%;
        padding: 20px;
-       background: #fff;
+       background: #1d1d1d;
        border-radius: 8%;
+       -moz-box-shadow: 0 0 8px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 8px rgb(0,0,0);
+    box-shadow: 0 0 8px rgb(0, 0, 0);
    }
    .contactform h2{
        font-size: 30px;
-       color: #333;
+       color: #fff;
        font-weight: 500;
    }
    .contactform .inputbox{
@@ -699,13 +702,14 @@ header{
    .contactform .inputbox input,
    .contactform .inputbox textarea{
        width: 100%;
-       padding: 5px 0;
+       padding: 8px 8px;
        font-size: 16px;
-       margin: 10px 0;
+       margin: 8px 0;
        border: none;
-       border-bottom: 2px solid #333;
        outline: none;
        resize: none;
+       background: rgb(0, 0, 0);
+       border-radius: 10px;
    }
    .contactform .inputbox span{
        left: 0;
@@ -734,11 +738,6 @@ header{
        font-size: 18px;
        border-radius: 10px;
    }
-   /* hr{
-    border-radius: 50px;
-    border: 2px solid #fff;
-    margin: 6px;
-} */
 
 /*----------------------------faqs-----------------------*/
 #faq-sec{
