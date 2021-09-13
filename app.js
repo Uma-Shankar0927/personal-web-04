@@ -1,16 +1,19 @@
 const header = document.getElementById('header');
 const toggle = document.getElementById('toggle');
 const navbar = document.getElementById('navbar');
+const navsani = document.getElementById('navsani');
 
 document.onclick = function (e) {
-    if (e.target.id !== 'header' && e.target.id !== 'toggle' && e.target.id !== 'navbar') {
+    if (e.target.id !== 'navsani' && e.target.id !== 'header' && e.target.id !== 'toggle' && e.target.id !== 'navbar') {
         toggle.classList.remove('active');
         navbar.classList.remove('active');
+        navsani.classList.remove('active');
     }
 }
 toggle.onclick = function () {
     toggle.classList.toggle('active');
     navbar.classList.toggle('active');
+     navsani.classList.toggle('active');
 }
 
 // ---------scrolltop---------
