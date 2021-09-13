@@ -92,12 +92,13 @@ header{
     display: none;
 }
 #navbar.active{
-    width: 660px;
+    width: 800px;
 }
 #navbar ul{
     position: relative;
     display: flex;
     flex-direction: row;
+    right: -30px;
 }
 #navbar ul li{
     list-style: none;
@@ -109,7 +110,7 @@ header{
     display: inline-block;
     text-decoration: none;
     font-size: 1.2em;
-    padding: 0 15px;
+    padding: 0 13px;
     letter-spacing: 2px;
     border-radius: 10px;
     text-align: center;
@@ -921,6 +922,7 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: left;
+        right: 0;
     }
     #navbar ul li a{
         font-size: 1.4rem;
