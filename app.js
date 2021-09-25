@@ -30,7 +30,7 @@ toggle.onclick = function () {
 
 let btncl = document.getElementById('btnjs');
         btncl.addEventListener('click', function run(){
-        confirm("Do you want to download the source code pdf?");
+        confirm("The source code pdf will be downloaded!");
         });
 
 
